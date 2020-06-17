@@ -1,0 +1,83 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Win | Lottery</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+          <h1 class="heading__text">Test Your Luck!</h1>
+          <p>If both answer is correct, the prize is yours ;)</p>
+          <br>
+        </div>
+      
+        <!-- Quiz section -->
+        <div class="quiz">
+          <div class="quiz__heading">
+            <h2 class="quiz__heading-text">
+              Your are <span class="result"></span> right.
+            </h2>
+          </div>
+      
+          <form class="quiz-form">
+            <div class="quiz-form__quiz">
+              <p class="quiz-form__question">
+                1. Choose one of these random number.
+              </p>
+              <label class="quiz-form__ans" for="q11">
+                <input type="radio" name="q1" id="q11" value="A" checked />
+                <span class="design"></span>
+                <span class="text">560</span>
+              </label>
+              <label class="quiz-form__ans" for="q12">
+                <input type="radio" name="q1" id="q12" value="B" />
+                <span class="design"></span>
+                <span class="text">480</span>
+              </label>
+              <label class="quiz-form__ans" for="q13">
+                <input type="radio" name="q1" id="q13" value="C" />
+                <span class="design"></span>
+                <span class="text">100</span>
+              </label>
+              <label class="quiz-form__ans" for="q14">
+                <input type="radio" name="q1" id="q14" value="D" />
+                <span class="design"></span>
+                <span class="text">50</span>
+              </label>
+            </div>
+      
+            <div class="quiz-form__quiz">
+              <p class="quiz-form__question">
+                2. Choose one of these random number.
+              </p>
+              <label class="quiz-form__ans" for="q21">
+                <input type="radio" name="q2" id="q21" value="A" checked />
+                <span class="design"></span>
+                <span class="text">10</span>
+              </label>
+              <label class="quiz-form__ans" for="q22">
+                <input type="radio" name="q2" id="q22" value="B" />
+                <span class="design"></span>
+                <span class="text">9</span>
+              </label>
+              <label class="quiz-form__ans" for="q23">
+                <input type="radio" name="q2" id="q23" value="C" />
+                <span class="design"></span>
+                <span class="text">8</span>
+              </label>
+              <label class="quiz-form__ans" for="q24">
+                <input type="radio" name="q2" id="q24" value="D" />
+                <span class="design"></span>
+                <span class="text">7</span>
+              </label>
+            </div>
+            <a style="text-decoration: none; width: 100px; text-align: center;;"class="submit" href="/contact.html">Submit</a>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
